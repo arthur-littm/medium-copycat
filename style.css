@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+}
+
+.banner{
+background-image: url('https://picsum.photos/1000/600/?random');
+padding: 150px 0;
+background-size: cover;
+
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner h2 {
+  color: white;
+  opacity: 0.8;
+  font-style: italic;
+}
+
+h2 {
+  color: grey;
+  font-weight: 300;
+}
+
+a {
+  color: black;
+  background-color: green;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+a:hover {
+  background-color: orange;
+}
+
+/* RESPONSIVE MEDIA QUERIES */
+
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+
+}
+
+@media(max-width: 700px) {
+  .container {
+    width: 500px;
+  }
+
+}
+
+
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
